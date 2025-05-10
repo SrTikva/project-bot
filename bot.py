@@ -1,7 +1,7 @@
 import telebot
 from config import *
 import sqlite3 
-con = sqlite3.connect(database) 
+con = sqlite3.connect() 
 cur = con.cursor()
 
 con.close()
